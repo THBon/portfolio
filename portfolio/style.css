@@ -34,6 +34,7 @@ img {
 	margin-left: 150px;
 	float:left;
 	border-radius: 50%;
+	margin-bottom: 100px;
 	
 }
 
@@ -81,8 +82,46 @@ ol li {
 /* About me section start here */
 
 
-#aboutme {
+.aboutme {
+	background-color: black;
+	color: white;
+	clear:both;
 	display: block;
+	height: 80px;
+	padding-top: 30px;
+}
+
+section div h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: "Archive Regular", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.box {
+	background-color: black;
+	color: white;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	margin-top: 80px;
+	line-height: 50px;
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border-radius: 10%;
+}
+
+.left {
+	margin-left: 200px;
+	float: left;
+}
+
+.right {
+	margin-right: 200px;
+	float: right;
+}
+
+.aboutme p {
+	margin-top: 40px;
 }
 
 
@@ -91,7 +130,7 @@ ol li {
 
 footer div {
 	background-color: black;
-	margin-top: 750px;
+	margin-top: 600px;
 	clear: both;
 	position: absolute;
 	width: 100%;
