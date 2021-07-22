@@ -79,6 +79,10 @@ ol li {
 	line-height: 40px;
 }
 
+hr {
+	border: 1px solid black;
+}
+
 /* About me section start here */
 
 
@@ -121,7 +125,7 @@ section div h2 {
 }
 
 .aboutme p {
-	margin-top: 40px;
+	margin-top: 70px;
 }
 
 
