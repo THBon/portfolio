@@ -71,11 +71,12 @@ p {
 ol {
 	margin-top: 20px;
 	padding-left: 35px;
+	margin-bottom: 0px;
 	
 }
 
 ol li {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	line-height: 40px;
 }
 
@@ -107,7 +108,7 @@ section div h2 {
 	width: 500px;
 	height: 500px;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 180px;
 	line-height: 50px;
 	font-size: 30px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -126,6 +127,7 @@ section div h2 {
 
 .aboutme p {
 	margin-top: 70px;
+	
 }
 
 
@@ -161,3 +163,9 @@ a:link {color: #7f5af0}
 a:visited {color: #83e1ba}
 a:hover {color: #2cb67d}
 a:active {color: #00ff96}
+
+/* update */
+
+.block {
+	display: block;
+}
